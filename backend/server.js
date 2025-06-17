@@ -74,7 +74,9 @@
 
 
     
-  
+    app.get('/room', (req, res) => {
+    res.send('Backend is working!');
+    });
 
 
 
