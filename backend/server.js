@@ -71,13 +71,21 @@
     server.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 
 
+app.use(express.static(path.join(__dirname, "../realtime-editor/build")));
+
+
+app.get("/", (req, res) => {
+  res.send("Server is running!");
+});
+
+
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../realtime-editor/build/index.html"));
+});
 
     
-    app.get('/room', (req, res) => {
-    res.send('Backend is working!');
-    });
-
-
+    
 
 
 
