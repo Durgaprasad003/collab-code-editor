@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 let socket ;
 
 export const initsocket = async () => {
-  socket = io('http://localhost:5000', {
+  socket = io('https://collab-code-editor-m4lr.onrender.com/', {
     'force new connection':true,
     transports: ["websocket"], // use websocket only
     reconnectionAttempts: 5,   // try to reconnect 5 times
