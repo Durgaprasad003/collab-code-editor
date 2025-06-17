@@ -1,0 +1,159 @@
+.homePageWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  height: 100vh;
+}
+.formwrapper{
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  /* background-color: #282a36; */
+  color: white;
+}
+
+footer a{
+  color:#4ea8de	;
+  text-decoration: none;
+}
+
+.inputgroup{
+  display: flex;
+  flex-direction: column;
+
+}
+.mainlabel{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.homepagelogoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.homepagelogo {
+  height: 60px;
+}
+.inputbox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom:20px;
+  background:#eeeeee;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  fpmont-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.joinbtn{
+  background: #4ea8de;
+  color: white;
+  width: 100px;
+  margin-left: auto;
+}
+.joinbtn:hover{
+  background: #3a8bbf;
+}
+
+.createinfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.createinfo a{
+  color: #4ea8de;
+  text-decoration: none;
+  margin-left: 5px;
+  transition: all 0.3s ease-in-out;
+
+}
+.createinfo a:hover,footer a:hover{
+  color: #3a8bbf;
+}
+
+.mainwrap{
+  display:grid;
+  grid-template-columns:230px 1fr;
+  height: 100vh;
+}
+.aside{
+  background: #1c1e29;
+  padding: 14px;
+  color: #fff;
+  display: flex;
+  flex-direction:column;
+  border-right: 2px solid #444;
+
+
+}
+
+.asideinner{
+   flex: 1;
+}
+
+.clientlist{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:20px
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.username{
+  margin-top: 10px;
+}
+.logo{
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+.logoimage{
+  height: 60px;
+
+}
+.leavebtn{
+  margin-top: 20px;
+  background: #d93025;
+  font-size: 17px;
+}
+.leavebtn:hover{
+  background:#ff0000;
+}
+.copybtn{
+  font-size: 17px;
+  background:lightgreen;
+}
+.copybtn:hover{
+  background: #66cc66;
+}
+.CodeMirror {
+  min-height: calc(100vh - 30px); /* 👈 space added */
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 30px;
+}
